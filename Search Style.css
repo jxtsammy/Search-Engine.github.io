@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(6, 41, 36, 0.9), rgba(4, 77, 60, 0.5)),url(b.png) ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar{
+    width: 100%;
+    max-width: 500px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(15px) saturate(180%);
+}
+
+.bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.bar input::placeholder{
+    color: white;
+}
+
+.bar button img{
+    width: 25px;
+}
+
+.bar button{
+    border: 0;
+    border-radius: 60%;
+    width: 60px;
+    height: 60px;
+    background: rgba(20, 209, 165, 0.5);
+    cursor: pointer;
+}
